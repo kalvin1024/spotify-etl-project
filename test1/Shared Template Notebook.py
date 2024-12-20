@@ -1,6 +1,7 @@
 # Databricks notebook source
 print("Hello Daniel")
 print("Hello Databricks and 12345678")
+print("Small and big data")
 
 # COMMAND ----------
 
