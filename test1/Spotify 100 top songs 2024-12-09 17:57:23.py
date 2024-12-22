@@ -1,12 +1,11 @@
 # Databricks notebook source
-
 !pip install spotipy
+!pip3 install async_timeout
 from spotipy.oauth2 import SpotifyClientCredentials
 
 # COMMAND ----------
 
 import spotipy
-from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 import requests
@@ -95,4 +94,4 @@ df = pd.DataFrame({'popularity': popularity, 'type': type, 'track': track, 'albu
 
 # COMMAND ----------
 
-df
+df.head()
